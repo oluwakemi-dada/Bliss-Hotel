@@ -1,0 +1,132 @@
+.container {
+  max-width: var(--max-width);
+  padding: 0 2rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  border-radius: 2px;
+  padding: 0.7rem 1.7rem;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.btn-primary,
+.bg-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.btn-secondary,
+.bg-secondary {
+  background: var(--secondary-color);
+  color: #fff;
+}
+
+.btn-light,
+.bg-dark {
+  background: var(--light-color);
+  color: #333;
+}
+
+.btn-dark,
+.bg-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.btn-outline-light {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn-outline-dark {
+  border: 1px solid var(--dark-color);
+  color: #333;
+}
+
+.bg-medium {
+  background: var(--medium-color);
+  color: #333;
+}
+
+.btn-primary:hover,
+.btn-dark:hover {
+  background: #fff;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.btn-light:hover {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.btn-outline-light:hover {
+  background: #fff;
+  color: #333;
+}
+
+.btn-outline-dark:hover {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.bg-primary h1,
+.bg-primary h2,
+.bg-primary h3,
+.bg-primary a {
+  color: #fff;
+}
+
+.py-1 {
+  padding: 1.5 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+.p-1 {
+  padding: 1.5rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+.section-title {
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 100;
+  text-transform: capitalize;
+}
