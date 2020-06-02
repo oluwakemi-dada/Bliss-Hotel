@@ -343,6 +343,10 @@
   }
 
   /* Utilities */
+  .container {
+    padding: 0 1.2rem;
+  }
+
   .section-title {
     font-size: 1.8rem;
   }
